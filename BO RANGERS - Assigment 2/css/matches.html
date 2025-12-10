@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - Bo Rangers Sierra Leone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Specific Styles for the Matches Table */
+        .match-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+
+        .match-table th, .match-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .match-table th {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+
+        .match-table tbody tr:hover {
+            background-color: var(--background-light);
+        }
+
+        .result-win {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .result-loss {
+            color: red;
+            font-weight: bold;
+        }
+
+        .result-draw {
+            color: orange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bo Rangers Sierra Leone</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h2>Upcoming Fixtures</h2>
+                <p>Track the performance of our managed players in the Sierra Leone Premier League and other competitions.</p>
+
+                <table class="match-table">
+                    <thead>
+                        <tr>
+                            <th>Date & Time</th>
+                            <th>Competition</th>
+                            <th>Match</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sat, 10 May 2026, 4:30 PM</td>
+                            <td>SL Premier League</td>
+                            <td>Bo Rangers vs East End Lions</td>
+                            <td>Bo Stadium</td>
+                        </tr>
+                        <tr>
+                            <td>Wed, 14 May 2026, 4:00 PM</td>
+                            <td>National Cup</td>
+                            <td>Kallon FC vs Bo Rangers</td>
+                            <td>Freetown National Stadium</td>
+                        </tr>
+                        <tr>
+                            <td>Sun, 18 May 2026, 4:30 PM</td>
+                            <td>SL Premier League</td>
+                            <td>FC Johansen vs Diamond Stars</td>
+                            <td>Makeni Wusum Stadium</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <hr>
+                
+                <h2>Recent Results</h2>
+                
+                <table class="match-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Competition</th>
+                            <th>Match</th>
+                            <th>Result</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sat, 03 May 2026</td>
+                            <td>SL Premier League</td>
+                            <td>Bo Rangers vs Mighty Blackpool</td>
+                            <td class="result-win">2 - 1 (Win)</td>
+                            <td><a href="#">Match Report</a></td>
+                        </tr>
+                        <tr>
+                            <td>Sun, 27 Apr 2026</td>
+                            <td>National Cup</td>
+                            <td>Old Edwardians vs **Bo Rangers**</td>
+                            <td class="result-draw">1 - 1 (Draw)</td>
+                            <td><a href="#">Match Report</a></td>
+                        </tr>
+                        <tr>
+                            <td>Wed, 23 Apr 2026</td>
+                            <td>SL Premier League</td>
+                            <td>Wusum Stars vs Bo Rangers</td>
+                            <td class="result-loss">0 - 1 (Loss)</td>
+                            <td><a href="#">Match Report</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bo Rangers Sierra Leone. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
